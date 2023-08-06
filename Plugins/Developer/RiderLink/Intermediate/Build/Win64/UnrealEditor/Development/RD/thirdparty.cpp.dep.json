@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\gameproject3\\kyle.sinclair_gp3\\fg22ft_gameproject3_team09\\fg22ft_gameproject3_team09\\plugins\\developer\\riderlink\\source\\rd\\thirdparty\\thirdparty.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\gameproject3\\kyle.sinclair_gp3\\fg22ft_gameproject3_team09\\fg22ft_gameproject3_team09\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

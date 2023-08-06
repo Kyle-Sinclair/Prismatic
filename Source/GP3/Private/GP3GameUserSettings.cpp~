@@ -1,0 +1,38 @@
+
+#include "GP3GameUserSettings.h"
+
+
+#define GAME_CONFIG_PATH_NAME = TEXT("GameSettings.ini")
+UGP3GameUserSettings::UGP3GameUserSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
+{
+	CustomSettingVar1 = TEXT("Default Value");
+	MasterVolumeLevel = 1.f;
+	
+}
+
+void UGP3GameUserSettings::SetCustomVariable1(FString NewValue)
+{
+	CustomSettingVar1 = NewValue;
+}
+
+FString UGP3GameUserSettings::GetCustomVariable1() const
+{
+	return CustomSettingVar1;
+}
+
+void UGP3GameUserSettings::SetMasterVolumeLevel(float NewValue)
+{
+		MasterVolumeLevel = NewValue;
+		SaveConfig();
+
+}
+
+float UGP3GameUserSettings::GetMasterVolumeLevel() const
+{
+	return MasterVolumeLevel;
+}
+
+UGP3GameUserSettings* UGP3GameUserSettings::GetCustomUserSettings()
+{
+	return Cast<UGP3GameUserSettings>(UGameUserSettings::GetGameUserSettings());
+}

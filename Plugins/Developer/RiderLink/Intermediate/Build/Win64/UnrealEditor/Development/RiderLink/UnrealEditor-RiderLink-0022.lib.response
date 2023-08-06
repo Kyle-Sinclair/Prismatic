@@ -1,0 +1,11 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RiderLink-0022.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\GameProject3\kyle.sinclair_GP3\FG22FT_GameProject3_Team09\FG22FT_GameProject3_Team09\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.obj"
+"C:\GameProject3\kyle.sinclair_GP3\FG22FT_GameProject3_Team09\FG22FT_GameProject3_Team09\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\Default.rc2.res"
+/OUT:"C:\GameProject3\kyle.sinclair_GP3\FG22FT_GameProject3_Team09\FG22FT_GameProject3_Team09\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLink\UnrealEditor-RiderLink-0022.lib"
